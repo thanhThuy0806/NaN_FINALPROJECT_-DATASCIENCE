@@ -1,0 +1,18 @@
+
+
+
+# VSCode
+.vscode
+
+
+# Data
+chroma-data
+data
+ollama-data
+
+# Log
+*.log
+
+# Cache
+
+__pycache__

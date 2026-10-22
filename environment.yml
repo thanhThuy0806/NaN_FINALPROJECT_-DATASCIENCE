@@ -1,0 +1,20 @@
+name: ds-steam-game
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - protobuf
+  - pydantic
+  - llama-index
+  - onnxruntime
+  - tokenizers
+  - notebook
+  - jupyter
+  # This must be downloaded through pip, not conda
+  - chromadb-client
+  # model
+  - lightgbm=4.7
